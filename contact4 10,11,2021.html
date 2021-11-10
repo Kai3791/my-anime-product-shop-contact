@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-image: url("anime-1.jfif");
+            height: 500px;
+            width: 1279px;
+            animation-name: imagetrail;
+            animation-duration: 4s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+          }
+          @keyframes imagetrail{
+            0%{background-image: url("anime-1.jfif")}
+            25%{background-image: url("https://th.bing.com/th/id/OIP.M2gOwNUdUEio0tEcjyOpygHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");}
+            50%{background-image: url("anime-2.jfif");}
+            75%{background-image: url("anime-4.jfif");}
+            100%{background-image: url("anime-5.jfif");}
+          } 
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <a class="navbar-brand text-primary">    
+            <img width="30px" height="30px"
+            src="anime logo.jfif"
+            alt="">Anime Shop</a>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/sweet/Desktop/Coding%20L2/10,11,2021.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/sweet/Desktop/Coding%20L2/about%20page%204%2010,11,2021.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/sweet/Desktop/Coding%20L2/contact4%2010,11,2021.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id=div1></div>
+<h2><marquee>Contact Us!</marquee></h2>
+<h5> If any problem occurs in your delivery or the late delivery you can contact us here through an email:______________@gmail.com</h5>
+</body>
+</html>
